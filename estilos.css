@@ -2,10 +2,10 @@ button {
     padding: 0;
     }
    
-    button li {
+button li {
     display: inline;
     }
-    button li a {
+button li a {
         font-family: Arial;
         font-size: 11px;
         text-decoration: none;
@@ -15,13 +15,13 @@ button {
         color: #fff;
         }
         
-    button li a:hover {
+button li a:hover {
         background-color: #2586d7;
         margin-top: -2;
         padding-bottom: 12px;
         }
 
-        button{
+button{
             text-align: center;
             padding: 10px;
             background-color: #F0B429;
