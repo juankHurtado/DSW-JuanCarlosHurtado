@@ -1,3 +1,26 @@
+#button {
+    padding: 0;
+    }
+   
+    #button li {
+    display: inline;
+    }
+#button li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #2175bc;
+    color: #fff;
+    }
+    
+#button li a:hover {
+    background-color: #2586d7;
+    margin-top: -2;
+    padding-bottom: 12px;
+    }
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333333;
@@ -15,19 +38,3 @@ body{
 
     
 }
-
-button li a {
-    font-family: Arial;
-    font-size: 11px;
-    text-decoration: none;
-    float: left;
-    padding: 10px;
-    background-color: #2175bc;
-    color: #fff;
-    }
-    
-button li a:hover {
-    background-color: #2586d7;
-    margin-top: -2;
-    padding-bottom: 12px;
-    }
