@@ -1,5 +1,6 @@
+
 .menu a:hover {
-    display: inline;        
+    
     text-align: center;
             padding: 0;
             background-color: #F0B429;
@@ -8,9 +9,14 @@
             
         }
 
-        .menu a:hover {
-            display: inline;   
-        }
+button {
+ padding: 0;
+}
+
+button li {
+    display: inline;
+    }
+    
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333333;
