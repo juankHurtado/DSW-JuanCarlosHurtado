@@ -94,3 +94,10 @@ nav a{
 .parrafoalineado {
     text-align: justify;
 }
+
+.tabla{
+    text-align: justify;
+    width: 95%;
+    margin: 0%;
+    color: #333333;
+}
