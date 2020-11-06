@@ -1,25 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceptos</title>
-
+    <img class="imghead" src="images/logoUNAD.png" alt="LogoUNAD"></img>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href=#>Conceptos</a>
+                <ul>
+                    <li><a href="Conceptos.html">Conceptos 1</a></li>
+                    <li><a href="">Conceptos 2</a></li>
+                                          
+                    
+                </ul>
+            </li>
+            <li><a href=#>Recursos</a>
+                <ul>
+                    <li><a href="Recursos.html">Recursos 1</a></li>
+                    <li><a href="#">Recursos 2</a></li>
+                                          
+                    
+                </ul>
+            </li>
+            
+            <li><a href="Autoevaluacion.html">AutoEvaluacion</a>
+                
+            </li>
+            
+            <li><a href="Autor.html">Autor</a></li>     
+            
+        </ul>
+    </div>
     
 </head>
 <body>
-    <div class="menu">
-        <ul>
-            <li><a href=index.html>Inicio</a></li>
-            <li><a href=Conceptos.html>Conceptos</a></li>
-            <li><a href=Recursos.html>Recursos</a></li>
-            <li><a href=Autoevaluacion.html>AutoEvaluación</a></li>
-            <li><a href=Autor.html>Autor</a></li>
-            </ul>
-    </div>
-<h1>Conceptos</h1>
+    <br>
+    <br>
+    <br>
+    <h1 class="titulo">CONCEPTOS</h1>
+    <section> <!--Seccion de contenido-->
 
+        <h2>Bienvenido a Desarrollo web para Dummies</h2>
+        <h3>Cual el objetivo de nuestra WEB: </h3>
+        <p>Brindar a la comunidad universitaria y en general a cualquier persona interesada en el desarrollo web acceso a un OVI (este objeto virtual de información), el cual entrega conceptos y herramientas a las personas que apenas se inician en el mundo del desarrollo de páginas web y especialmente en el uso del HTML5, a continuación, abordaremos 4 elementos necesarios para dar forma y sentido al contenido en cuanto a secciones, apartes, pie de página y artículos (Section, aside, footer y article, respectivamente) 
+        </p>
+        <img src="http://www.edu4java.com/_img/web-en/bodyStructureAside.png" alt="pantalla">
+    <h4>Que es HTML: </h4>
+    <p class="parrafoalineado">HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado
+    </p>
 
+    <h4>Que es section </h4>
+    <p>El elemento de HTML section representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.  Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes.
+    </p>
+    
+    <h4>Ejemplo </h4>
+    <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;h1&gt;</span>El extra&ntilde;o interior<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>Introducci&oacute;n<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Boris era un hombre muy solitario...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>Un blanco f&aacute;cil<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Las contradicciones segu&iacute;an creciendo en su mente...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>A nadie le importa<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="12."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Pasando desapercibido, Boris intentaba comprender a las personas que transitaban a su lado...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        </code></pre>
+    
+    <h4>Que es aside </h4>
+    <p>El elemento HTML aside representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.
+    </p>
+
+    <h4>Ejemplo </h4>
+    <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;h1&gt;</span>El blog de astrofotograf&iacute;a de Gary<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;p&gt;</span>Hola a todos, y bienvenidos a mi blog...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1"><span class="tag">&lt;aside&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;nav&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1">    <span class="tag">&lt;h1&gt;</span>Sitios relacionados<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2">    <span class="tag">&lt;ul&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://science.nasa.gov/astrophysics/&quot;</span>&gt;</span>Astrof&iacute;sica - NASA Science<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://www-astro.physics.ox.ac.uk/&quot;</span>&gt;</span>Astrof&iacute;sica | Universidad de Oxford<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://aston.blogejemplo.com/&quot;</span>&gt;</span>El blog de astrof&iacute;sica de Aston<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2">      <span class="tag">&lt;li&gt;</span>...<span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1">    <span class="tag">&lt;/ul&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="12."></span><span class="ln2">  <span class="tag">&lt;/nav&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;/aside&gt;</span></span></span>
+        </code></pre>
+
+        <h4>Que es footer </h4>
+        <p>El Elemento HTML Footer (<span class="tag">&lt;footer&gt;</span>) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección (p.e, su ancestro mas cercano article, aside, nav, section,blockquote, body, details, fieldset, figure, td). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados. 
+        </p>  
+
+        <h4>Ejemplo </h4>  
+
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>El extranjero<span class="tag">&lt;/h1&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span><span class="atv">&quot;Suficiente!&quot;</span> dijo el peque&ntilde;o hombre, mientras se levantaba de su desbaratada silla...<span class="tag">&lt;/p&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;footer&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="5."></span><span class="ln1">    <span class="tag">&lt;p&gt;</span>Copyright &amp;copy; 1990-2014 Peter Doe, todos los derechos reservados.<span class="tag">&lt;/p&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="6."></span><span class="ln2">  <span class="tag">&lt;/footer&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="7."></span><span class="ln1"><span class="tag">&lt;/article&gt;</span></span></span>
+            </code></pre>
+
+        <h4>Que es article </h4>
+        <p>El Elemento article de HTML representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la indicación. Podría ser un mensaje en un foro, un artículo de una revista o un
+            periódico, una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento independiente del contenido.
+        </p>
+
+        <h4>Ejemplo </h4>
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>El tiempo pasa<span class="tag">&lt;/h1&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>Era una fr&iacute;a ma&ntilde;ana, pero el saber que ella estaba a salvo y volviendo a casa me di&oacute; la fuerza para levantarme...<span class="tag">&lt;/p&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>...<span class="tag">&lt;/p&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="5."></span><span class="ln1">  <span class="tag">&lt;article&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="6."></span><span class="ln2">    <span class="tag">&lt;p&gt;</span><span class="tag">&lt;b&gt;</span>Mark<span class="tag">&lt;/b&gt;</span>: Los seres humanos s&oacute;lo extra&ntilde;amos las cosas buenas que tenemos cuando ya no las tenemos m&aacute;s...<span class="tag">&lt;/p&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;/article&gt;</span></span></span>
+            <span class="ln"><span class="num" data-num="8."></span><span class="ln2"><span class="tag">&lt;/article&gt;</span></span></span>
+            </code></pre>
+
+</section> 
+<footer > <a href="https://twitter.com/juankPsgLotus?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @juankPsgLotus</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </footer>
 </body>
         
 </html>
