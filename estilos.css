@@ -1,4 +1,12 @@
 
+button {
+    padding: 0;
+   }
+   
+   button li {
+       display: inline;
+       }
+
 .menu a:hover {
     
     text-align: center;
@@ -9,14 +17,8 @@
             
         }
 
-button {
- padding: 0;
-}
 
-button li {
-    display: inline;
-    }
-    
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333333;
