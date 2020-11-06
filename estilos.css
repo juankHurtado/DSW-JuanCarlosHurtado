@@ -1,30 +1,6 @@
-
 button {
     padding: 0;
    }
-   
-   button li {
-       display: inline;
-       }
-
-.menu a:hover {
-    
-    text-align: center;
-            padding: 0;
-            background-color: #F0B429;
-            width: 99%;
-        
-            
-        }
-
-
-
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #333333;
+.parrafoalineado {
+    text-align: justify;
 }
-.titulo {
-    text-align: center;
-    color:  #F47920;
-}
-
