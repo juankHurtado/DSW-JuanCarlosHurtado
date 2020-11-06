@@ -7,6 +7,10 @@
         
             
         }
+
+        .menu a:hover {
+            display: inline;   
+        }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333333;
